@@ -9,7 +9,7 @@ class User extends Authenticatable
 {
     use Notifiable;
 
-    /**
+    $auth_id = Auth::user()->checkSomething($params['id']);/**
      * The attributes that are mass assignable.
      *
      * @var array
